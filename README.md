@@ -425,6 +425,7 @@ This template is built on the shoulders of amazing open-source projects:
 - **[tweakcn](https://tweakcn.com)** - Advanced theme customization
 - **[Recharts](https://recharts.org)** - Composable charting library
 - **[TanStack Table](https://tanstack.com/table)** - Powerful data tables
+- **[ShadeCn Store](https://github.com/shadcnstore/shadcn-dashboard-landing-template)** - UI Template
 
 ---
 
