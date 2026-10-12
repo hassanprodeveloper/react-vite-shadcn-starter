@@ -24,7 +24,7 @@ export function ThemeCustomizer({ open, onOpenChange }: ThemeCustomizerProps) {
   const { config: sidebarConfig, updateConfig: updateSidebarConfig } = useSidebarConfig()
 
   const [activeTab, setActiveTab] = React.useState("theme")
-  const [selectedTheme, setSelectedTheme] = React.useState("default")
+  const [selectedTheme, setSelectedTheme] = React.useState("yellow")
   const [selectedTweakcnTheme, setSelectedTweakcnTheme] = React.useState("")
   const [selectedRadius, setSelectedRadius] = React.useState("0.5rem")
   const [importModalOpen, setImportModalOpen] = React.useState(false)
@@ -34,7 +34,7 @@ export function ThemeCustomizer({ open, onOpenChange }: ThemeCustomizerProps) {
     // Complete reset to application defaults
 
     // 1. Reset all state variables to initial values
-    setSelectedTheme("")  // Clear theme selection after reset
+    setSelectedTheme("yellow")  // Back to the default preset
     setSelectedTweakcnTheme("")
     setSelectedRadius("0.5rem")
     setImportedTheme(null) // Clear imported theme
@@ -47,7 +47,7 @@ export function ThemeCustomizer({ open, onOpenChange }: ThemeCustomizerProps) {
     applyRadius("0.5rem")
 
     // 4. Reset sidebar to defaults
-    updateSidebarConfig({ variant: "inset", collapsible: "offcanvas", side: "left" })
+    updateSidebarConfig({ variant: "floating", collapsible: "icon", side: "left" })
   }
 
   const handleImport = (themeData: ImportedTheme) => {
