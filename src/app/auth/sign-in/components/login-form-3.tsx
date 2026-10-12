@@ -22,13 +22,13 @@ export function LoginForm3({
                   <div className="bg-primary text-primary-foreground flex size-8 items-center justify-center rounded-md">
                     <Logo size={24} />
                   </div>
-                  <span className="text-xl">ReactStarter</span>
+                  <span className="text-xl">Creative Flows</span>
                 </a>
               </div>
               <div className="flex flex-col items-center text-center">
                 <h1 className="text-2xl font-bold">Welcome back</h1>
                 <p className="text-muted-foreground text-balance">
-                  Login to your ReactStarter account
+                  Login to your Creative Flows account
                 </p>
               </div>
               <div className="grid gap-3">

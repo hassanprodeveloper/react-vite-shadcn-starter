@@ -53,7 +53,7 @@
 ## 🏗️ Project Structure
 
 ```text
-📁 react-vite-shadcn-starter/    # React + Vite + Typescript
+📁 creative-flows/   # React + Vite + Typescript
 ├── 📁 src/
 │   ├── 📁 app/                  # Demo pages & applications
 │   │   ├── 📁 dashboard/        # Dashboard variants
